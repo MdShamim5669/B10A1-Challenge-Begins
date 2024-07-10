@@ -6,20 +6,22 @@
     font-variation-settings:
         "wdth"100;
 }
+
 /* Shared styles */
 .dark-2 {
     color: #474747;
 }
-.textdecoration{
+
+.textdecoration {
     text-decoration: none;
 }
+
 /* Header section */
 
 .btn-primary {
     /* background-color: #FD6E0A; */
     font-weight: bold;
-    color: #0D1321
-    font-size: 20px;
+    color: #0D1321 font-size: 20px;
     border: 1px solid #0d1321;
     box-sizing: border-box;
     width: 100%;
@@ -30,7 +32,8 @@
     justify-content: center;
     padding: 17px 24px;
 }
-.btn-2{
+
+.btn-2 {
     background-color: #0d1321;
     font-weight: bold;
     color: white;
@@ -45,28 +48,33 @@
     justify-content: center;
     padding: 17px 24px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 40px 150px;
 }
+
 .nav-title {
-        color: var(--Dark-01, #181818);
-        font-family: "Open Sans";
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
+
 /* Banner section */
-.banner{
+.banner {
     background-image: url(../assets/Hero-bg.png);
     width: 100%;
     position: relative;
@@ -77,9 +85,10 @@ nav ul li{
     margin: 0;
     align-items: center;
     margin-bottom: 75px;
-    
+
 }
-.banner-title{
+
+.banner-title {
     width: 998px;
     position: relative;
     font-size: 48px;
@@ -87,7 +96,8 @@ nav ul li{
     font-weight: 700;
     margin: 24px 221px;
 }
-.banner-content{
+
+.banner-content {
     align-items: center;
     justify-content: center;
     padding: 45px 200px;
@@ -97,7 +107,7 @@ nav ul li{
     margin: ;
 }
 
-.banner-description{
+.banner-description {
     margin-bottom: 15px;
     width: 852px;
     position: relative;
@@ -110,7 +120,7 @@ nav ul li{
     margin-bottom: 32px;
 }
 
-  
+
 
 /* Body part */
 .Why-Web-development {
@@ -122,7 +132,8 @@ nav ul li{
     margin-left: 230px;
     margin-right: 200px;
 }
-.section-title{
+
+.section-title {
     width: 100%;
     position: relative;
     font-size: 32px;
@@ -130,8 +141,9 @@ nav ul li{
     color: #0d1321;
     text-align: center;
 }
+
 .section-description {
-    width:100%;
+    width: 100%;
     position: relative;
     font-size: 16px;
     line-height: 26px;
@@ -141,4 +153,74 @@ nav ul li{
     opacity: 0.7;
 }
 
+/* Skills  */
+.skill-title {
+    width: 390px;
+    position: relative;
+    font-size: 24px;
+    line-height: 36px;
+    display: inline-block;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+}
 
+.learn-more {
+    position: relative;
+    font-weight: 600;
+
+    /* border: 1px solid #0d1321; */
+    /* text-align: center; */
+    color: #0d1321;
+}
+
+.skills-class {
+    display: flex;
+    padding: 48px;
+    margin: 48px 97px;
+    justify-content: space-around
+}
+
+.skill-title {
+    width: 390px;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    display: inline-block;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+}
+
+.skill-description {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+.skills-class-column1 {
+    padding: ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: paleturquoise;
+    border: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.skills-class2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    margin: 48px 97px;
+}
