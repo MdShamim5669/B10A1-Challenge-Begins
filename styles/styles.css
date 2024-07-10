@@ -10,7 +10,11 @@
 .dark-2 {
     color: #474747;
 }
+.textdecoration{
+    text-decoration: none;
+}
 /* Header section */
+
 .btn-primary {
     /* background-color: #FD6E0A; */
     font-weight: bold;
@@ -20,6 +24,21 @@
     box-sizing: border-box;
     width: 100%;
     padding: 18px 35px;
+    border-radius: 8px;
+    lex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 24px;
+}
+.btn-2{
+    background-color: #0d1321;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #0d1321;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 21px 24px;
     border-radius: 8px;
     lex-direction: row;
     align-items: center;
@@ -46,7 +65,80 @@ nav ul li a{
 nav ul li{
     list-style: none;
 }
+/* Banner section */
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 650.9px;
+    object-fit: cover;
+    margin: 0;
+    align-items: center;
+    margin-bottom: 75px;
+    
+}
+.banner-title{
+    width: 998px;
+    position: relative;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    margin: 24px 221px;
+}
+.banner-content{
+    align-items: center;
+    justify-content: center;
+    padding: 45px 200px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: ;
+}
+
+.banner-description{
+    margin-bottom: 15px;
+    width: 852px;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0d1321;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
   
 
 /* Body part */
+.Why-Web-development {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 36px;
+    margin-left: 230px;
+    margin-right: 200px;
+}
+.section-title{
+    width: 100%;
+    position: relative;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0d1321;
+    text-align: center;
+}
+.section-description {
+    width:100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0d1321;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.7;
+}
+
 
