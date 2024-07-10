@@ -104,9 +104,9 @@ nav ul li {
 .banner-content {
     align-items: center;
     justify-content: center;
-    padding: 45px 100px;
+    padding: 45px 200px 45px 100px;
     display: inline-block;
-    position: relative;
+    
     text-align: center;
     margin: ;
 }
