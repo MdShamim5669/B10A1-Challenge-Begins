@@ -223,7 +223,9 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
+    /* font-weight: 300; */
+    border-radius: 3px;
 }
 
 .skills-class2 {
@@ -276,6 +278,78 @@ a {
     height: 100%;
     padding: 20px;
 }
-.language-des{
-    
+
+.language-des {}
+
+.submit-hobe {
+    /* width: 730px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;     */
+}
+
+.submit {
+    background-image: url(../assets/handshake.jpg);
+    margin: 49px 170px 112px;
+    border: 64px 48px;
+    border-radius: 10px;
+    padding: 64px 48px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.search {
+    width: auto;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    box-sizing: border-box;
+    align-items: center;
+    padding: 19px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.4);
+
+}
+
+.button1 {
+    background-color: #fff;
+    border: 2px;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.title {
+
+    position: relative;
+    font-size: 32px;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+}
+.submit-description{
+
+        font-size: 16px;
+        line-height: 15px;    
+        color: #fff;
+        opacity: 0.7;
+}
+.footer-column{
+    display: flex;
+    margin: 80px
+     150px 0px;
+     justify-content: space-between;
+}
+.social-media{
+    margin-left: 10px;
 }
