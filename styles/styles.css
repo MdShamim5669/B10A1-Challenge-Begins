@@ -16,6 +16,10 @@
     text-decoration: none;
 }
 
+section {
+    margin-bottom: 30px;
+}
+
 /* Header section */
 
 .btn-primary {
@@ -154,6 +158,10 @@ nav ul li {
 }
 
 /* Skills  */
+.skill {
+    margin-bottom: 100px;
+}
+
 .skill-title {
     width: 390px;
     position: relative;
@@ -211,7 +219,7 @@ a {
     background-color: paleturquoise;
     border: 2px;
     color: black;
-    padding: 15px 32px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -223,4 +231,51 @@ a {
     justify-content: space-around;
     padding: 48px;
     margin: 48px 97px;
+}
+
+/* Motivation */
+.motivaton-title, .target-title {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0d1321;
+    display: inline-block;
+    border: 1px solid black;
+    /*  */
+    margin-bottom: 50px;
+}
+
+.motivation {
+    text-align: center;
+    padding: 0px 148px;
+    margin: 48px 250px;
+}
+
+/* target Section */
+.target {
+    margin: 120px 144px;
+}
+
+.target-group {
+    margin: 30px 294px;
+}
+
+/* Progarming section */
+.language {
+    margin: 48px 150px 111px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lan {
+
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.language-des{
+    
 }
